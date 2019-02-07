@@ -49,7 +49,7 @@ public class sampleJwtGenerator {
 		JwtGenerator jwtGenerator = client.getJwtGenerator();
 		
 		// API to which the JWT token has to be generated
-		String createCycleUri = zephyrBaseUrl + "/public/rest/api/1.0/execution/6f4ad19b-7308-4870-89a7-601ee115a317";
+		String createCycleUri = zephyrBaseUrl + "/public/rest/api/1.0/execution/bbf045d9-1ecd-49e3-ae5a-95348f40c347";
 		
 		URI uri = new UsRI(createCycleUri);
 		int expirationInSec = 15811200;
