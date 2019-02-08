@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testing.org/testng-1.0.dtd">
+<suite name="SampleCode">
+
+<listeners>
+ 
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+ 
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ 
+</listeners>
+<test name="DemoCode">
+<package name="Sample.code.com">
+</package>
+</test>
+ 
+ <testsuites tests="2" failures="2" disabled="0" errors="0" time="10.898" name="AllTests">
+    
+</testsuites>
+
+</suite>
