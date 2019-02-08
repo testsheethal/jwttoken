@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="Sample.code.com" time="0.064" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="sampleJwtGenerator" time="0.064" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -63,7 +63,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   
-  <testcase classname="Sample.code.com" name="CISCISE_SalesRep_OutOfOffice" time="0"/>
-  <testcase classname="Sample.code.com" name="CISCISE_Advisor_CreateTask " time="0"/>
+  <testcase classname="sampleJwtGenerator" name="CISCISE_SalesRep_OutOfOffice" time="0"/>
+  <testcase classname="sampleJwtGenerator" name="CISCISE_Advisor_CreateTask " time="0"/>
  
 </testsuite>
